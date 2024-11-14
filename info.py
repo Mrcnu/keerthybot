@@ -56,7 +56,7 @@ else:
     LOG_CHANNEL = int(LOG_CHANNEL)
 
 # support group
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/Naa_Movies_Search')
 if len(SUPPORT_GROUP) == 0:
     print('Error - SUPPORT_GROUP is missing, exiting now')
     exit()
@@ -74,7 +74,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/CnuMoviesBot')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/CnuMoviesBot")
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/CnuTeam')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/+jKzomlkfxZg3ZTk1')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/CnuTeam')
 TUTORIAL = environ.get("TUTORIAL", "http://t.me/HowToOpenThisLinkss/")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "http://t.me/HowToOpenThisLinkss/")
@@ -112,7 +112,7 @@ PAYMENT_QR = environ.get('PAYMENT_QR', '')
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 
 # for stream
-IS_STREAM = is_enabled('IS_STREAM', True)
+IS_STREAM = is_enabled('IS_STREAM', False)
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002365950557")
 if len(BIN_CHANNEL) == 0:
     print('Error - BIN_CHANNEL is missing, exiting now')
