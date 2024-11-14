@@ -64,7 +64,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://mrcnuofficial6:mrcnuofficial6@cluster2.4yo3k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://mrcnuofficial6:mrcnuofficial6@cluster2.4yo3k.mongodb.net/?retryWrites=true&w=majority")
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
