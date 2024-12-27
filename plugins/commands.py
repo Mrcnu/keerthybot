@@ -180,7 +180,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/how_to_open_linkzz/15"),
+                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/HowToOpenThisLinkss"),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
@@ -209,7 +209,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/how_to_open_linkzz/15"),
+                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/HowToOpenThisLinkss"),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
@@ -271,7 +271,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton("Hᴇʟᴘ ⚙️", callback_data='features'),
                             InlineKeyboardButton('Aʙᴏᴜᴛ 💌', callback_data=f'about')
                         ],[
-                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/how_to_open_linkzz/15"),
+                            InlineKeyboardButton('HOW TO USE BOT', url=f"https://t.me/HowToOpenThisLinkss"),
                             InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
                         ],[
                             InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
@@ -307,7 +307,7 @@ async def start(client:Client, message):
                 InlineKeyboardButton(text="✅ ᴠᴇʀɪғʏ ✅", url=verify),
                 InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❓", url=settings['tutorial'])
                 ],[
-                InlineKeyboardButton(text="😁 U WILL GET MOVIES AFTER THIS STEO DONT WORRY 😁", url=f"https://t.me/how_to_open_linkzz/13"),
+                InlineKeyboardButton(text="😁 U WILL GET MOVIES AFTER THIS STEO DONT WORRY 😁", url=f"https://t.me/HowToOpenThisLinkss/18"),
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             if await db.user_verified(user_id): 
